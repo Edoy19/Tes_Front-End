@@ -1,0 +1,25 @@
+Validasi Input untuk Destinasi:
+
+Fungsi pertama-tama memeriksa apakah  (destinasi) adalah "domestic" (domestik) atau "international" (internasional). Jika tidak, fungsi akan mengembalikan "Invalid destination".destination
+Validasi Input untuk Berat:
+
+Fungsi kemudian memeriksa apakah  (berat) adalah angka dan lebih besar dari 0. Jika tidak, fungsi akan mengembalikan "Invalid weight".weight
+Validasi Input untuk Prioritas:
+
+Fungsi memeriksa apakah  (prioritas) adalah salah satu dari "standard" (standar), "express" (ekspres), atau "priority" (prioritas). Jika tidak, fungsi akan mengembalikan "Invalid priority".priority
+Menentukan Biaya Dasar Berdasarkan Destinasi dan Prioritas:
+
+Jika destinasi adalah "domestic":
+Jika prioritas adalah "standard", biaya dasar adalah $5 per kg.
+Jika prioritas adalah "express", biaya dasar adalah $10 per kg.
+Jika prioritas adalah "priority", biaya dasar adalah $20 per kg.
+Jika berat lebih dari 10 kg, tambahkan biaya tambahan sebesar $10.
+Jika destinasi adalah "international":
+Jika prioritas adalah "standard", biaya dasar adalah $15 per kg.
+Jika prioritas adalah "express", biaya dasar adalah $25 per kg.
+Jika prioritas adalah "priority", biaya dasar adalah $50 per kg.
+Jika berat lebih dari 5 kg, tambahkan biaya tambahan sebesar $50.
+Menghitung Biaya Total Berdasarkan Berat:
+
+Total biaya dihitung dengan mengalikan berat dengan biaya dasar yang sesuai, kemudian menambahkan biaya tambahan jika berat melebihi batas yang ditentukan.
+Fungsi ini dapat dipanggil dengan berbagai kombinasi parameter untuk menguji skenario yang berbeda dan memastikan bahwa fungsi berfungsi dengan benar.

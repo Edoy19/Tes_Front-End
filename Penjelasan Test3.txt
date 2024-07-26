@@ -1,0 +1,11 @@
+Pengaturan Klien GraphQL: Apollo Client dikonfigurasikan untuk terhubung ke endpoint GraphQL dan disediakan ke aplikasi Vue.
+
+Manajemen Status dengan Pinia: productStore mengelola status untuk kategori, produk, dan status loading. Ini mencakup aksi untuk mengambil kategori dan menambahkan kategori baru, menggunakan kueri dan mutasi GraphQL.
+
+Komponen:
+
+CategoryList.vue menampilkan kategori dan produk secara rekursif dan menghitung total harga setiap kategori, termasuk subkategorinya.
+AddCategory.vue menyediakan formulir untuk menambahkan kategori baru.
+Aplikasi Utama: App.vue menggabungkan komponen AddCategory dan CategoryList untuk menampilkan antarmuka manajemen produk.
+
+Pengaturan ini memastikan struktur modular dan mudah dipelihara untuk aplikasi Vue.js Anda, menangani persyaratan untuk manajemen produk dan kategori dengan GraphQL dan manajemen status menggunakan Pinia.

@@ -1,0 +1,29 @@
+Tentu! Berikut adalah penjelasan dari kode calculateTax dalam bahasa Indonesia berdasarkan 7 pernyataan tersebut:
+
+Validasi Input:
+
+Fungsi pertama-tama memeriksa apakah income (pendapatan), age (usia), dan dependents (tanggungan) valid. Jika ada yang tidak valid, fungsi akan mengembalikan pesan kesalahan yang sesuai.
+Pemeriksaan Usia untuk Kelayakan Pajak:
+
+Jika usia kurang dari 18 tahun, fungsi akan mengembalikan "Not eligible for tax" karena anak di bawah umur tidak diwajibkan membayar pajak.
+Perhitungan Pajak Dasar:
+
+Pajak dihitung berdasarkan bracket pendapatan:
+10% untuk pendapatan hingga $10,000
+20% untuk pendapatan antara $10,001 dan $50,000
+30% untuk pendapatan di atas $50,000
+Diskon Berdasarkan Usia:
+
+Individu berusia 65 tahun atau lebih mendapatkan diskon 20% pada pajak yang telah dihitung.
+Pengurangan untuk Tanggungan:
+
+Fungsi kemudian menghitung total pengurangan berdasarkan jumlah tanggungan ($500 per tanggungan) dan mengurangkan ini dari pajak dasar.
+Penegakan Pajak Minimum:
+
+Fungsi memastikan bahwa pajak tidak dapat negatif. Jika pajak yang dihitung kurang dari $0, maka pajak diatur menjadi $0.
+Fungsi Rekursif:
+
+Meskipun tidak secara inheren rekursif, jika rekursi memang dibutuhkan, kita bisa memecah masalah menjadi bagian yang lebih kecil dan memanggil fungsi secara rekursif. Namun, mengingat sifat masalah ini yang sederhana, rekursi tidak diperlukan.
+Fungsi dapat dipanggil dengan berbagai input untuk menguji skenario yang berbeda dan memastikan fungsinya bekerja dengan benar.
+
+Berikut adalah kodenya lagi untuk referensi:

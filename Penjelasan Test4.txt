@@ -1,0 +1,4 @@
+Penjelasan
+Pinia Store: Mengelola status rute dan pemuatan data dengan menggunakan GraphQL untuk mengambil dan menambah data rute.
+Komponen Peta: Menggunakan leaflet untuk menampilkan peta interaktif dengan marker dan popup.
+Integrasi: Menggabungkan komponen peta dan store Pinia ke dalam aplikasi utama dan mengkonfigurasi GraphQL client.
